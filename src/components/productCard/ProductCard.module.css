@@ -1,0 +1,35 @@
+.productCard {
+  display: flex;
+  padding-bottom: 0.625rem;
+  gap: 0.625rem;
+  border-bottom: 1px solid #979797;
+}
+
+.productImage {
+  width: 45px;
+  height: 45px;
+  border: 1px solid #e3e3e3;
+  border-radius: 1px;
+}
+
+.cardInfo {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.productInfo {
+  display: flex;
+  flex-direction: column;
+}
+.productControl {
+  font-size: 0.75rem;
+  color: #777879;
+}
+.productDescription {
+  font-size: 0.625rem;
+  color: #2b2525;
+}
+
+.productInfo > :first-child {
+  margin-bottom: 0.5rem;
+}

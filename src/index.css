@@ -1,0 +1,18 @@
+@font-face {
+  font-family: "Helvetica";
+  src: url("../src/fonts/HelveticaNeueThin.otf");
+}
+@font-face {
+  font-family: "HelveticaLight";
+  src: url("../src/fonts/HelveticaNeueLight.otf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Helvetica", sans-serif;
+  background-color: #e6e9f0;
+}

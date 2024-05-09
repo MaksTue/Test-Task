@@ -1,0 +1,43 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+}
+
+.formInfoTitle {
+  font-family: "HelveticaLight";
+  color: #5a1094;
+}
+.input {
+  border: 1px solid #dedcdc;
+  border-radius: 5px;
+  padding: 0.75rem 1rem;
+  width: 100%;
+}
+
+.input:focus {
+  opacity: 0.5;
+}
+.input::placeholder {
+  color: #777879;
+}
+
+.containerLine {
+  display: flex;
+  align-items: center;
+  gap: 0.655rem;
+}
+.PhoneInfo {
+  font-family: "HelveticaLight";
+  color: #777879;
+  font-size: 0.8rem;
+}
+.labelAddress {
+  margin-top: 1.25rem;
+}
+.cityInput {
+  margin: 0.625rem 0;
+}
+.countryInput {
+  min-width: 180px;
+}

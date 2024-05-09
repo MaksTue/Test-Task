@@ -1,0 +1,44 @@
+.container {
+  max-width: 700px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+.header {
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ff1876;
+  background: #ffffff;
+  border-image: linear-gradient(
+    to right,
+    #7e00e8 0%,
+    #ff1876 54%,
+    #bb0cb2 100%
+  );
+  border-image-slice: 1;
+}
+
+.containerItems {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+.titleText {
+  color: #5a1094;
+}
+.shopIcon {
+  display: flex;
+  gap: 0.3rem;
+}
+
+.iconText {
+  font-family: "HelveticaLight";
+  color: #c90ea5;
+}

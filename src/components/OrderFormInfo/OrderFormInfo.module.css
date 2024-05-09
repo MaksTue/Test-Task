@@ -1,0 +1,26 @@
+.container {
+  max-width: 400px;
+  width: 100%;
+  padding: 0.8rem 3rem 2.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+.progressBar {
+  display: flex;
+  align-items: center;
+  color: #979797;
+  gap: 0.875rem;
+  font-size: 0.75rem;
+}
+
+.active {
+  color: #5a1094;
+}
+
+.formTitle {
+  color: #5a1094;
+  font-size: 1.6rem;
+}
+.step {
+}
